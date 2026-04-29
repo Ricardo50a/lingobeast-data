@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "con Palabra de Acción\\n\\n\\n\\nshe have to deposit?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Tiene ella que depositar?\\n> Yes, she has to deposit. Sí, ella tiene",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "con \\nDoes she have the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "check? ¿Tiene ella el cheque?\\n> Yes, she has the check. Si, ella tiene",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "?\\n\\nEjemplo:\\n\\n\\nDo you have to deposit the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "check? ¿Tiene usted que depositar el cheque?\\n> Yes, | have to deposit",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI + \\n\\nWhat do you have? ¿Qué tiene",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?\\n\\nEsta Pregunta General se puede responder de la siguiente",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Qué tienen ellos?\\n> They have the package. |",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Acción\\nEjemplo:\\n\\nPl+",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Qué tienen ellos que hacer?\\n\\n> They have topay. — Ellos tienen que",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Qué tienen ellos que",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "hacer?\\n> They have to pay the bill Ellos tienen que pagar la",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta de Expansión\\n\\nThen,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "what do you have? ()\\n\\nEjemplo:\\n\\nSeñal +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

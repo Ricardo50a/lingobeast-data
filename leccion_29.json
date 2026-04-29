@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "do we want?\\nWhat do you want?\\nWhat do they want?\\n\\nAhora repita y",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\n‘What do you want? ¿Qué quiere usted?\\n\\n> | want toclean. —",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "do you want? ¿Qué quiere usted?\\n\\n> 1 want ahouse. — Yo quiero una",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Qué quiere usted?\\n\\n> 1 want to clean the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "()\\n\\n\\n\\nDo you want",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "to cook? ¿Quiere usted cocinar?\\n\\n> No, | don't want tocook. No, yo no",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "quiero cocinar.\\n\\nPi + \\n\\nThen, what do you want",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "to do? \\n\\n» 1 want to read. Yo.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "she need towatch? ¿Necesita ella mirar?\\n\\n24 BASIC PROGRAM\"",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "con Palabra de Acción\\nEjemplo:\\n\\n\\nDo you need to",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "hear? ¿Necesita usted oír?\\n\\n> Yes, | need — to hear. Si, yo necesito",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Necesita ella el radio?\\n\\n> Yes, she needs the radio. Sí, ella",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "radio? ¿Necesita usted oír el radio?\\n>» Yes, | need to hear theradio.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta General\\n\\n| + \\n\\nyou need? ¿Qué",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

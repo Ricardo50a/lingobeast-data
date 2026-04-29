@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "\\n\\nDo you have the check? ¿Tiene usted el cheque?\\n\\n)",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\n  '\\n> 1",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta Simple\\n\\n\\n\\nDo we wish to",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "write? ¿Deseamos nosotros escribir?\\n\\nhoz\\n\\nPara la Pregunta Simple",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple\\n\\nEjemplo:\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Desea usted escribir?\\n> Yes, | wish to write. Sí, yo deseo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nDo you wish towrite theletter? ¿Deseausted escribirla",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "carta? |\\n\\n> Yes, wish towrite theletter. Sí yo deseo escribir la",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPl + \\n\\nWhat do you wish? ¿Qué desea",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?\\n\\nEsta Pregunta General se puede responder de la siguiente",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\nWhat do you wish? ¿Qué desea usted?\\n\\n> | wish tospend.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhat do you wish? ¿Qué desea usted?\\n> 1 wishto spend",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n (Entonces, ¿qué desea",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "él?)\\n\\nEjemplo:\\n\\n\\n\\nDo you wish to ask?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Desea usted preguntar?\\n\\nD No, I don't wish toask. No, yo no deseo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

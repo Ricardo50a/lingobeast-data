@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "does he admire?\\nWho does she admire?\\nWho do we admire?\\nWho do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "admire?\\nWho do they admire?\\n\\nAhora repita y practique.\\n\\nLa Palabra",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWho do you invite? ¿A quién invita usted?\\n\\nP +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "?\\n\\nWho do you congratulate? ¿A quién felicita usted?\\n| congratulate",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPl + \\n\\nWho do you have to talk to? ¿A",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "quién tiene que hablarle usted?\\n\\nI have to talk to Mary. Yo tongo que",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "()\\n\\nEjemplo:\\n\\nPB + FP + PA + Obj",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "?\\n\\nCan he visit the family? ¿Puede él visitar a la familia?\\nNo, he",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "who can he visit? | \\nHe can visit",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"FASE El\\n\\negunte: ¿Por qué?\\nAsk: Why?\\n\\nA continuación",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(porque),\\npara dar una razón.\\n\\nWhy do you eat?\\n\\n¿Por qué come",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?\\nConstrucción D Construcción Interrogativa-Pregunta",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI + \\nWhy do you eat? (¿Por qué come",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?)\\n\\nat (señal + E\\n\\nWhy do\\n\\nWhy do\\n\\nWhy does\\n\\nWhy",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

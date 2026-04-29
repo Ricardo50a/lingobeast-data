@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "preguntar,\\n\\nPl + \\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\n> 1 wish to answer. — Yo deseo responder.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple\\n\\n\\n\\nCan they count? ¿Pueden ellos",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "contar?\\n\\nMiremos la Construcción Interrogativa con la respuesta",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta Simple\\n\\nEjemplo:\\n\\n\\n\\nCan you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "count? ¿Puede usted contar?\\n> Yes, 1 can count. Sí, yo puedo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple con  ¿Puede usted",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "contar el cambio?\\n) Yes, ! can count the change. — Sí, yo puedo contar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "build? ¿Qué puede construir usted? |\\n\\nLa anterior Pregunta General se",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhat can you build? ¿Qué",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "puede construir usted?\\n\\nFP + PB + PA + Obj\\n\\n1 can build the house.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhat can you do? ¿Qué puede",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "hacer usted?\\n\\nFP + PB + PA + Obj |\\n\\n1 can cook the dinner. Yo puedo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n (Entonces,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿qué puede hacer usted?)\\n\\nEjemplo:\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

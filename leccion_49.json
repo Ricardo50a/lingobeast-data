@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "tired? (¿Por qué está usted cansado?)\\n\\nLam tired because | work a lot.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "you eat? ¿Por qué come usted?\\nFP + PA + because + FP + P/Aux + Cal\\n1",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Por qué necesita usted beber? i\\n\\nl",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\nThen, why will you wear",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "it? ()\\n\\nEjemplo:\\n\\nPB + FP + PA +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWill you wear a dress because",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "you are going to a party? ¿Se pondrá usted un vestvo porque va a",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"FASE El\\n\\nhen, PI + \\n\\nen, why will you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "wear it? \\n\\nill wear it because I’m",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Ol\\n\\nWere you an employee? ¿Era usted un empleado?\\n\\n> Yes, | was",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI + \\nWhat were you? (¿Qué era",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?)\\n\\nMiremos la respuesta a esta Construcción.\"",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\nRespuesta con \\n\\nWhat",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "were you? ¿Qué era usted?\\n\\ndol was afriend.\\n\\nPractiquemos la",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPL+  ¿Dónde estaba usted?\\n\\nl",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

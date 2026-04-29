@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "¿qué va a enviar él por correo?\\n\\nHe is going to mail the letter. Él va",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "ing ?\\n\\nAre you climbing? ¿Está usted escalando?\\n\\necuerde:\\nTas",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\\"¿Está",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "él comparando?\\n> Yes, he is comparing. Si, él está comparando.\\n\\nNo,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple con  ¿Está usted",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "comparando el precio?\\n> Yes, | am comparing the price. Si, yo estoy",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "ing ?\\n\\nWhat are you playing? ¿Qué está jugando usted?\\n\\nPara",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nEjemplo:\\n\\nPIl_+ \\n\\nWhat are you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "playing? ¿Qué está jugando usted?\\n\\nFP + P/Aux + PA+ing + Obj\\n\\n1 am",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "?\\n\\nWhat are you doing? ¿Qué está haciendo usted?\\nFP + P/Aux + PA +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n , Entonces, ¿qué",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "está enseñando 61?\\n\\nEjemplo:\\n\\n\\nIs he",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "teaching Spanish? | ¿Está él ensefando español?\\n\\nNo, he isn’t teaching",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "+\\n Entonces, ¿qué está enseñando",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "él?\\n\\nHe is teaching English. — Élestá enseñando inglés.\\n\\nctique |",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

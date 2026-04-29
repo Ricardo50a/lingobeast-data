@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "\"texto\": \"FASE MH\\n\\nPregunte: ¿Cómo...?\\n—— Ask: How...?\\n\\nA",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "feel?\\n\\n¿Cómo se siente usted?\\nConstrucción D Construcción",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta General\\n\\nPl + \\nHow do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "feel? (¿Cómo se siente usted?)\\n\\nÉ Pl + (Señal + ¿FP +\\nae cid eee",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Afirmativa\\n\\nEjemplo:\\n\\nPl + \\nHow do you feel? {Como",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "se siente usted?\\nD> 1 feel fine. _Yomesiento bien. |\\n\\nLa Palabra",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI + \\n\\nHow will they speak? ¿Cómo hablarán",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "ellos?\\n\\nThey will speak sincerely. Ellos hablarán",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI + \\n\\nHow do you have to cross",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "the street? ¿Cómo tienen ustedes que cruzar fa calle?\\n\\nWe have to",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansion\\n\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "()\\n| Ejemplo:\\n\\nMust they speak badly?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Deben ellos hablar mal?\\nNo, they mustn't speak badly. — No, ellos no",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "deben hablar mal.'\\n Entonces, ¿cómo hablarán",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "ellos?\\nThey will speak very well. Ellos hablarán muy bien.\\n\\nRecuerde",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "¿Puede usted cantar?\\n> No,! can’t sing. No, yo no puedo cantar.\\n\\nPl +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\n Entonces, ¿qué puede hacer",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?\\n\\n> 1 can sweep. ' Yo puedo barrer.\\n\\n48 nas ic PROGRAM\"",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta Simple\\n\\n\\n\\nMust he attend? ¿Debe",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "asistir 61?\\n\\nMiremos las respuestas afirmativas y negativas para la",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta Simple\\n\\nEjemplo:\\n\\nMust she",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "attend? ¿Debe ella asistir?\\n> Yes,she must attend. Si, ella debe",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple con \\nMust you attend the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "class? ¿Debe usted asistir a la clase?\\n> Yes,! must attend the class.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Qué debe esperar usted?\\nObservemos varias",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhat must you wait for? ¿Qué debe esperar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?\\n\\nFP + PB + PA + Obj\\n\\n| must wait for the doctor. Yodebo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhat must you do? ¿Qué debe",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "hacer usted?\\n\\nFP + PB + PA\\n\\n| must discuss. Yo debo discutir\\n\\nFP +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "+\\n (Entonces, ¿qué debe hacer",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

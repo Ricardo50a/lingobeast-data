@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "clean? (¿Quiere usted limpiar?)\\n\\ni + FP +(881 + (BAN\\n\\nPalabra Básica",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Palabra de Acción\\nDo want to clean?\\nDo you want to clean?\\nDoes he",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "want to clean?\\nDoes she want to clean?\\nDo we want to clean?\\nDo you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "want to clean?\\nDo they want to clean?\\n\\nAhora repita y",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Acción\\n\\nEjemplo:\\n\\n\\n\\nDo you want toclean?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Quiere usted limpiar?\\n>» Yes, 1 want to clean. Sí, yo quiero",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "telephone? ¿Quiere ella el teléfono?\\n» Yes, she wants the telephone.",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"FASE\\n\\nyou want toeat the bread? ¿Quiere usted comer el",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "pan?\\nYes,l — want to eat the bread. SÍ, yo quiero comer el pan.\\n\\n“No,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"FASE i\\n\\nPregunte: ¿Qué quiere usted?\\n\\nAsk: What do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "want?\\n\\nCuando queremos conocer o ampliar una información específica",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "you want?\\n¿Qué quiere usted?\\nConstrucción D Construcción",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta General\\n\\nPl + \\nWhat do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "want? (¿Qué ¿lero usted?)\\n\\nES +| “Señal 1+.E + PB. 2\\nWhat do (",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "want?\\nWhat do you want?\\nWhat does he want?\\nWhat does she want?\\nWhat",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

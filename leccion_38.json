@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "\"texto\": \"FASE E\\n\\negunte: ¿Es usted...?\\nAsk: Are you...?\\n\\nA",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Preguntas Simples.\\n\\nAre you the employee?\\n\\n¿Es usted el",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "empleado?\\nConstrucción C Construcción Interrogativa-Pregunta",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple\\n\\n\\nAre you the employee? (¿Es usted el",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "empleado?)\\n\\n+ FR +\\n\\nForma Personal\\n\\nAm I the employee?\\nAre you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "the employee?\\nIs he the employee?\\nIs she the employee?\\nAre we the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "employees?\\nAre you the employees?\\nAre they the employees?\\n\\nAhora",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Ol\\nAre you awoman? ¿Es usted una mujer?\\n> Yes, | am a woman. SÍ, yo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"egunte: ¿Qué es usted?\\nAsk: What are you?\\n\\nPor medio de una",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "una Pregunta General.\\n\\nWhat are you?\\n\\n¿Qué es usted?\\nConstrucción D",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Construcción Interrogativa-Pregunta General\\n\\nPI + \\nWhat",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "are you? (¿Qué es usted?)\\n\\nPl. (BE + EP >\\n\\n? Aula\\nina ‘ia | Forma",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Personal\\n\\nWhat am 1?\\nWhat are you?\\nWhat is he?\\nWhat is she?\\nWhat",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "are we?\\nWhat are you?\\nWhat are they?\\n\\nAhora repita y",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nRespuesta con \\nWhat are",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

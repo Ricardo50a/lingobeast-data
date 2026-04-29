@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "Interrogativa-Pregunta General\\n\\nPl + \\n\\nHow much can you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "drink? | ¿Cuánto puede tomar usted?\\n\\nl can drink a little. Yo puedo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI+\\n\\nHow much must you climb? ¿Cuánto debe",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "escalar usted?\\n\\nooo\\n\\nCon el fin de hacer una pregunta más",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI +0\\n\\nHow much water can you drink? ¿Cuánta",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "agua puede tomar usted?\\n\\nI can drink alittle water. Yo puedo tomar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "poca agua.\\n\\nPl + \\n\\nHow many books must you read?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Cuántos libros debe leer usted?\\n\\n| must read a lot of books. Yo debo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "water do you buy? (¿Cuánta agua compra usted?)\\n\\nPor otra parte, los",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "water do you buy? (¿Cuántos galones de agua compra",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?)\\n\\nConstrucción D Construcción Interrogativa-Pregunta",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI +  |\\n\\nHow much weight do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "wish to lose? ¿Cuánto peso desea usted perder?\\n\\n= |\\n| wish to lose",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "()\\n\\nEjemplo:\\n\\nPB+FP + PA + Ind/Cant",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

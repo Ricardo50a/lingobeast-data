@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "General\\n\\nPl + |\\n\\nWhat are they? ¿Quéson?\\n\\nFP + P/Aux +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"90\\n\\nPI + \\n\\nWhat [Sens ¿Qué es? |\\nFP + P/Aux +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n (Entonces, ¿qué",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "es?)\\n\\nEjemplo:\\n\\n\\n\\nIs it aspoon? _¿Es una",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "cuchara?\\n\\nFP + P/Aux + not + Obj\\n\\nD> No, it isn’t aspoon. No, no es",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "una cuchara.\\n\\n\\n\\n Entonces,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿qué es?,\\n\\nFP + P/Aux + Obj\\n\\n» It is afork. Es un tenedor.\\n\\nla",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "con “It” para reemplazar \\n\\nDoes the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "child have to sleep? “¿Tiene que dormir el niño?\\n\\nYes, FP+PB +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple con Respuestas Afirmativas.\\n\\n\\n\\nDo you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "need the car? éNecesita usted el auto?\\n\\nYes, FP + PB + F/Obj\\n\\nYes, |",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "radio? ¿Desea ella comprar el radio?\\n\\n> Yes, she wishes to buy it. Si,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"FASE\\n\\nPregunte: ¿Dónde...?\\nAsk: Where ...2.\\n\\nA",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(dónde).\\n\\nWhere do you walk?\\n\\n¿Dónde camina usted?\\n\\nConstrucción D",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(¿Dónde camina usted?)\\n(Pl) +6 (\\nSeñal FP",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

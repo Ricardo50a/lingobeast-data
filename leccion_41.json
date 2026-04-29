@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "¿\\nWhere do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "walk?\\nWhere does he walk?\\nWhere does she walk?\\nWhere do we",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "walk?\\nWhere do you walk?\\nWhere do they walk?\\n\\nAhora repita y",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Afirmativa\\n\\nEjemplo:\\nPl +  ¿Dónde",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "camina usted?\\n> | walk inthe country. Yo camino en el",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Dónde se sentará ella?\\n\\nShe will sit on",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta General\\n\\nPI + \\n\\nWhere does",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "she want to dance? | ¿Dónde quiere ella bailar? |\\n\\nShe wants to dance",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\nThen, where can we",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "park?\\n()\\n\\nEjemplo:\\n\\nPB",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "+\\n\\nCan we park here? ¿Podemos nosotros estacionar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "aquí? |\\n\\nNo, you can't park here. — No, ustedes no pueden estacionar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "aqui.\\n\\n\\n\\n Entonces,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿dónde podemos nosotros estacionar? |\\n\\nYou can park in front of the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"egunte: ¿Cuándo...?\\nAsk: When ...?\\n\\nA continuación veremos",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

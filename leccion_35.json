@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "usted?)\\n\\nEjemplo:\\n\\n\\n\\nMust you open? ¿Debe usted",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "abrir? —\\n> No,! mustn’t open. No, yo no debo abrir.\\n\\nPl + PB + FP +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n> 1 must",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple\\n\\n ¿Cantará usted?\\n\\nEz\\n\\nAl igual",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Construcción Interrogativa-Pregunta Simple\\n\\nEjemplo:\\nwill she sing?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Cantará ella?\\n> Yes she will sing. Sí, ella cantará.\\n\\nNo,she won't",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "song? ¿Cantará ella la canción?\\n> Yes, she will sing the song. Sí, ella",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nEjemplo:\\n\\nPl +  ¿Qué",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "continuará usted? |\\n\\nObservemos la forma de responder a esta",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nRespuesta con \\n\\nWhat",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "will you continue? ¿Qué continuará usted?\\n\\nFP + PB + PA + Obj\\n\\n1",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Qué hará usted?\\n\\nFP + PB + PA\\n\\n1 will",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n (Entonces,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿qué dará usted?)\\nEjemplo:\\n\\nPB + FP + PA + Ob\\n\\nWill you give a",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "suit? ¿Dará usted un traje?\\n\\n> No, | won't give a suit. No, yo no daré",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

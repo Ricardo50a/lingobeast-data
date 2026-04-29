@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "?\\n\\nWill they spend 10 dollars?\\n\\nNo, they won't spend 10",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "dollars.\\n\\n\\n\\nThen, how much will they",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "spend?\\nThey will spend 20 dollars.\\n\\n¿Gastarán ellos 10",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "dólares?\\n\\nNo, ellos no gastarán 10 dólares.\\n\\nEntonces, ¿cuánto",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "gastarán ellos?\\n\\nEllos gastarán 20 dólares.\\n\\nRecuerde repetir y",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "you help?\\n\\n¿Cuál hombre ayuda usted?\\n\\nConstrucción D Construcción",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Interrogativa-Pregunta General\\n\\nPI + \\nWhich man",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "do you help? (¿Cuál hombre ayuda usted?)\\nWhich men do you help?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(¿Cuáles hombres ayuda usted?)\\n\\n(Pl +(Obj + fseñal + FP. +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(\\nWhich man do you help?\\nWhich man does he",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "help?\\nWhich man does she help?\\nWhich man do we help?\\nWhich man do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "help?\\nWhich man do they help?\\n\\nAhora repita y practique.\\n\\n108 Basic",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "“ones”.\\n\\nEjemplo: Do you buy water? (¿Compra usted agua?)\\n\\nYes, |",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "buy water. (SÍ, yo compro agua.)\\n\\nWhich one do you buy? (¿Cuál compra",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?)\\n\\n1 buy the cold one. (Yo compro la fría.)\\n\\nVeamos la",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

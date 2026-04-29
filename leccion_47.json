@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": ", ¿Cuálcompran ellos?\\n\\n> They",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPl + \\n\\nWhich windows do you need",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "to clean? ¿Cuáles ventanas necesita usted limpiar? |\\nI need to clean",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhich chicken do you have to roast? ¿Cuál pollo tiene usted",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "que asar?\\n| have to roast the small chicken. Yo tengo que asar el pollo",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "()\\n\\nEjemplo:\\n\\nPB+FP+PA + Cal +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Deben ellos escoger el auto",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "azul?\\n\\nNo, they mustn’t choose the blue car. No, ellos no deben",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "escoger el auto azul\\n\\n\\n\\nThen, which one must",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "they choose? \\n\\nThey must choose",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\"texto\": \"FASEE\\n\\nPregunte: ¿Quién...?\\nAsk: Who0 ...?.\\n\\nAhora",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "personas.\\n\\nWho do you admire?\\n¿A quién admira usted?\\nConstrucción D",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(¿A quién admira usted?)\\n\\nPl + (Señal +, FP",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "+(\\n\\nPalabra de Acción\\nWho do i admire?\\nWho do you admire?\\nWho",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

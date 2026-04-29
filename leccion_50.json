@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "Construcción Interrogativa-Pregunta General\\n\\nPI + \\n\\nHow",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "were you? ¿Cómo estaba usted?\\n\\nFP + P/Aux + Ind/Cant + Cal\\n\\n> Iwas",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n ()\\n\\nWere they",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "nurses? ¿Eran ellas enfermeras?\\n\\nNo, they were not nurses. No, ellas",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "no eran enfermeras.\\n Entonces, ¿qué eran",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "ellas?\\nThey were employees. Ellas eran empleadas.\\n\\nConstrucción E",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\n ()\\nWere you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "in the city? ¿Estaba usted en la ciudad?\\nNo, | wasn't in the city. No,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "yo no estaba en la ciudad.\\n\\n Entonces, ¿dónde",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "estaba usted?\\n| was in the country. Yo estaba en el campo.\\n\\nBASIC",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿lba usted a enviar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "la carta? |\\n> Yes, | was going to send the letter. Si, yo iba a enviar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\nThen, what were you going",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "to send? ()\\n\\nEjemplo:\\n\\nThen,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Pl+\\n\\n Entonces,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

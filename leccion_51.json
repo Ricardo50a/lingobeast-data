@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "¿qué iba a enviar usted?\\n\\nFP +P/Aux+PB+PA+ Obj\\n\\n| was going to send",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "+\\n\\nWhere were you going tosend it? ¿Adónde iba",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted a enviarlo?\\n\\nFP +P/Aux+PB + PA + FP + Obj\\n\\n1 was goingtosend",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple\\n\\nEjemplo:\\n\\nWas she studying? ¿Estaba",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "ella estudiando?\\n> Yes,she was studying. | Si, ella estaba",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "()\\nEjemplo:\\n\\nThen, Pl + P/Aux +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\n Entonces, ¿qué estaba",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "haciendo ella?\\n\\nFP + P/Aux + PA + ing + Obj\\n\\nShe was painting the",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "\\n\\nWhat was she painting? <Qué estaba pintando ella?\\n\\nFP",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Simple\\n\\nEjemplo:\\n\\n\\n\\nCould you rent the movie?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Pudieron alquilar ustedes la pelicula?\\n\\nFP +PB+not+PA + Obj\\n\\nNo, we",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Expansión\\n\\n\\n (Entonces,",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿qué pudieron alquilar ustedes?)\\n\\nEjemplo:\\n\\nPl + PB + FP +",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Entonces, ¿qué pudieron alquilar",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]

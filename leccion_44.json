@@ -1,0 +1,77 @@
+[
+    {
+        "pregunta": "\"texto\": \"FASE\\n\\negunte: ¿Cuánto/Cuántos...?\\n\\nAsk: How much/How",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "many...?\\n\\nA continuación veremos las Palabras Interrogativas “how",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Generales.\\n\\nHow much do you know?\\n¿Cuánto sabe usted?\\n\\nConstrucción",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "(¿Cuánto gana usted?)\\n\\n(BL + (+ (EL. + (Pal",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "7\\n\\nPalabra de Acción\\n\\nHow much do 1 earn?\\nHow much do you",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "earn?\\nHow much does he earn?\\nHow much does she earn?\\nHow much do we",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "earn?\\nHow much do you earn?\\nHow much do they earn?\\n\\nAnora repita y",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "General\\n\\nPI + \\nHow many do you use? (¿Cuántos usa",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "usted?)\\n\\nLY + señal + \\n\\nPalabra de Acción\\n\\nHow many do l",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "use?\\nHow many do you use?\\nHow many does he use?\\nHow many does she",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "use?\\nHow many do we use?\\nHow many do you use?\\nHow many do they",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "use?\\n\\nAhora repita y practique...\\n\\nLas Preguntas Generales con las",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "Afirmativa\\n\\nEjemplo:\\n\\nPl + \\n\\nHow much does he earn?",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Cuánto gana él?\\n\\n> He earns alot. | Elgana mucho.\\n\\nPl + Señal +FP+",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    },
+    {
+        "pregunta": "¿Cuántos usa usted?\\n\\n> | use many. Yo uso",
+        "respuesta": "",
+        "fuente": "koe_practica_inermedio.json"
+    }
+]
