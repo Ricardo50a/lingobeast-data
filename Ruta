@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruta Patrimonial San Martín | Caracas</title>
+    <style>
+        :root {
+            --primary: #8B263E;
+            --secondary: #D4A373;
+            --dark: #2B2D42;
+            --light: #FAF0E6;
+            --white: #FFFFFF;
+            --playing: #2a9d8f;
+            --success: #2a9d8f;
+            --danger: #e63946;
+            --visited: #e2ece9;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background-color: var(--primary); color: var(--white);
+            padding: 2.5rem 1rem; text-align: center;
+            border-bottom: 5px solid var(--secondary); }
+        header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.1rem; font-style: italic; color: var(--secondary); }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+
+        .ficha-tecnica { background-color: var(--white); border-radius: 12px;
+            padding: 1.5rem; margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border-left: 6px solid var(--primary); }
+        .ficha-tecnica h2 { color: var(--primary); margin-bottom: 1.2rem; font-size: 1.4rem; }
+        .grid-datos { display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem; }
+        .dato-item strong { display: block; color: var(--primary);
+            font-size: 0.95rem; text-transform: uppercase; margin-bottom: 0.2rem; }
+
+        /* ====== BARRA DE PROGRESO ====== */
+        .progreso-wrapper { background: var(--white); padding: 1.2rem;
+            border-radius: 12px; margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .progreso-header { display: flex; justify-content: space-between;
+            font-weight: bold; font-size: 0.95rem; margin-bottom: 0.5rem;
+            color: var(--primary); }
+        .barra-externa { background: #e0e0e0; border-radius: 8px;
+            height: 12px; width: 100%; overflow: hidden; }
+        .barra-interna { background: var(--success); height: 100%;
+            width: 0%; transition: width 0.4s ease; }
+
+        /* ====== BUSCADOR ====== */
+        .buscador-wrapper { margin-bottom: 1.5rem; }
+        .buscador-wrapper input { width: 100%; padding: 0.9rem 1.2rem;
+            border: 2px solid var(--secondary); border-radius: 10px;
+            font-size: 1rem; background-color: var(--white); color: var(--dark);
+            transition: border-color 0.2s; }
+        .buscador-wrapper input:focus { outline: none; border-color: var(--primary); }
+        .sin-resultados { display: none; text-align: center; padding: 2rem;
+            color: #888; font-style: italic; background: var(--white);
+            border-radius: 10px; }
+        .sin-resultados.visible { display: block; }
+
+        /* ====== HITOS ====== */
+        .lista-hitos { display: flex; flex-direction: column; gap: 2rem; }
+        .hito-card { background-color: var(--white); border-radius: 12px;
+            padding: 1.8rem; box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+            border: 1px solid rgba(0,0,0,0.03); position: relative;
+            transition: all 0.3s ease; }
+        .hito-card:hover { transform: translateY(-2px); }
+        .hito-card.oculto { display: none; }
+        .hito-card.visitado { background-color: var(--visited);
+            border-left: 6px solid var(--success); }
+        .header-hito { display: flex; justify-content: space-between;
+            align-items: flex-start; margin-bottom: 1rem;
+            border-bottom: 1px solid #f0f0f0; padding-bottom: 0.8rem; }
+        .badge-numero { background-color: var(--primary); color: var(--white);
+            font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px;
+            font-size: 0.85rem; }
+        .hito-card.visitado .badge-numero { background-color: var(--success); }
+        .titulo-hito { color: var(--primary); font-size: 1.3rem;
+            margin-top: 0.3rem; padding-right: 1rem; }
+        .texto-narrativa { font-size: 1rem; color: #4a4a4a;
+            margin-bottom: 1.5rem; text-align: justify; }
+
+        .paneles-acciones { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .audio-control-panel { flex: 1; min-width: 200px; display: flex;
+            align-items: center; background-color: #f8f9fa;
+            padding: 0.6rem 1rem; border-radius: 8px; gap: 1rem; }
+        .btn-audio { background-color: var(--primary); color: var(--white);
+            border: none; padding: 0.6rem 1.2rem; border-radius: 6px;
+            cursor: pointer; font-weight: bold; display: flex;
+            align-items: center; gap: 0.5rem; font-size: 0.9rem;
+            transition: background-color 0.2s ease; }
+        .btn-audio:hover { background-color: #6b1d30; }
+        .btn-audio.playing { background-color: var(--playing); }
+        .btn-mapa { background-color: #4a5759; color: var(--white);
+            text-decoration: none; padding: 0.6rem 1.2rem; border-radius: 6px;
+            font-weight: bold; font-size: 0.9rem; display: flex;
+            align-items: center; gap: 0.5rem; transition: background-color 0.2s; }
+        .btn-mapa:hover { background-color: var(--dark); }
+        .status-text { font-size: 0.85rem; color: #6c757d; font-weight: 500; }
+
+        /* ====== COMENTARIOS ====== */
+        .seccion-comentarios { margin-top: 4rem; background: var(--white);
+            padding: 2rem; border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            border-top: 5px solid var(--secondary); }
+        .seccion-comentarios h2 { color: var(--primary); margin-bottom: 0.5rem; font-size: 1.5rem; }
+        .seccion-comentarios > p { color: #666; margin-bottom: 1.5rem; font-size: 0.95rem; }
+        .form-comentario { display: flex; flex-direction: column; gap: 1rem; }
+        .form-comentario input, .form-comentario textarea { width: 100%;
+            padding: 0.85rem 1rem; border: 1.5px solid #ddd; border-radius: 8px;
+            font-size: 0.95rem; font-family: inherit; color: var(--dark);
+            background: #fafafa; transition: border-color 0.2s; }
+        .form-comentario input:focus, .form-comentario textarea:focus {
+            outline: none; border-color: var(--primary); background: #fff; }
+        .form-comentario textarea { resize: vertical; min-height: 90px; }
+        .btn-enviar { background-color: var(--primary); color: var(--white);
+            border: none; padding: 0.85rem 1.5rem; border-radius: 8px;
+            font-weight: bold; font-size: 1rem; cursor: pointer;
+            align-self: flex-start; transition: background-color 0.2s; }
+        .btn-enviar:hover { background-color: #6b1d30; }
+        .contador-comentarios { margin-top: 2rem; margin-bottom: 1rem;
+            color: var(--primary); font-weight: bold; font-size: 0.95rem;
+            padding-bottom: 0.5rem; border-bottom: 2px solid var(--secondary); }
+        .lista-comentarios { display: flex; flex-direction: column; gap: 1rem;
+            max-height: 450px; overflow-y: auto; padding-right: 0.3rem; }
+        .comentario-item { background: #f8f9fa; border-left: 4px solid var(--secondary);
+            border-radius: 8px; padding: 1rem 1.2rem; position: relative;
+            animation: fadeIn 0.4s ease; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .comentario-header { display: flex; justify-content: space-between;
+            align-items: center; margin-bottom: 0.4rem; flex-wrap: wrap; gap: 0.5rem; }
+        .comentario-nombre { font-weight: bold; color: var(--primary); font-size: 0.95rem; }
+        .comentario-fecha { font-size: 0.75rem; color: #888; }
+        .comentario-texto { font-size: 0.9rem; color: #444; word-wrap: break-word; }
+        .btn-eliminar { position: absolute; top: 0.6rem; right: 0.6rem;
+            background: transparent; border: none; color: #ccc;
+            cursor: pointer; font-size: 1rem; transition: color 0.2s; }
+        .btn-eliminar:hover { color: var(--danger); }
+        .sin-comentarios { text-align: center; color: #999; font-style: italic; padding: 1.5rem; }
+
+        /* ====== FOOTER ====== */
+        .footer-proyecto { background-color: var(--dark); color: var(--white);
+            text-align: center; padding: 2.5rem 1rem; margin-top: 5rem;
+            font-size: 0.9rem; border-top: 4px solid var(--secondary); }
+        .footer-proyecto p { margin-bottom: 0.6rem; opacity: 0.9; }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .header-hito { flex-direction: column-reverse; gap: 0.5rem; }
+            .paneles-acciones { flex-direction: column; gap: 0.5rem; }
+            .audio-control-panel { min-width: 100%; }
+            .btn-audio, .btn-mapa { justify-content: center; width: 100%; }
+            .btn-enviar { width: 100%; align-self: stretch; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ruta Turística Patrimonial San Martín</h1>
+        <p>"Fe, historia y comunidad en la Parroquia San Juan"</p>
+    </header>
+  
+    <div class="container">
+
+        <!-- FICHA TÉCNICA CORREGIDA -->
+        <section class="ficha-tecnica">
+            <h2>Especificaciones Técnicas del Circuito</h2>
+            <div class="grid-datos">
+                <div class="dato-item"><strong>Recorrido Peatonal</strong>~2,3 Km lineales</div>
+                <div class="dato-item"><strong>Duración Óptima</strong>1 Hora y 40 Minutos</div>
+                <div class="dato-item"><strong>Trayecto Técnico</strong>Sentido Oeste - Este</div>
+                <div class="dato-item"><strong>Manejo de Flujo</strong>Máx. 25 personas por grupo</div>
+            </div>
+        </section>
+
+        <!-- BARRA DE PROGRESO (6 HITOS) -->
+        <div class="progreso-wrapper">
+            <div class="progreso-header">
+                <span>Progreso de Exploración</span>
+                <span id="porcentaje-texto">Hitos visitados: 0 / 6 (0%)</span>
+            </div>
+            <div class="barra-externa">
+                <div class="barra-interna" id="barra-progreso"></div>
+            </div>
+        </div>
+
+        <!-- BUSCADOR -->
+        <div class="buscador-wrapper">
+            <input type="search" id="buscador"
+                placeholder="🔍 Buscar hito por nombre o palabra clave (ej: maternidad, iglesia, plaza...)"
+                oninput="filtrarHitos(this.value)" aria-label="Buscar hito">
+        </div>
+        <p id="sin-resultados" class="sin-resultados">
+            No se encontraron hitos que coincidan con tu búsqueda.
+        </p>
+
+        <!-- LISTA DE HITOS CORREGIDA (6 HITOS) -->
+        <div class="lista-hitos" id="lista-hitos">
+
+            <!-- HITO 1: PLAZA MATERNIDAD -->
+            <div class="hito-card" id="card-hito1">
+                <div class="header-hito">
+                    <h3 class="titulo-hito">Plaza Maternidad (Plaza San Martín)</h3>
+                    <span class="badge-numero">Hito 1</span>
+                </div>
+                <p class="texto-narrativa" id="text-hito1">
+                    ¡Bienvenidos a la Ruta San Martín! Iniciamos en la Plaza Maternidad, un espacio que conecta la historia con la vida cotidiana de San Juan. Frente a nosotros se encuentra la estación del Metro Maternidad, un nodo vital de transporte. Esta plaza es nuestro punto de descanso e hidratación. Imagina a los vecinos que, desde mediados del siglo XX, han transitado por aquí para recibir atención en la Maternidad Concepción Palacios. Hoy, este espacio se reinventa como el umbral de bienvenida para los visitantes de la ruta.
+                </p>
+                <div class="paneles-acciones">
+                    <div class="audio-control-panel">
+                        <button class="btn-audio" onclick="toggleAudio('text-hito1', this, 'hito1')">
+                            <span>▶</span> Escuchar Guía
+                        </button>
+                        <span class="status-text">Audio guía disponible</span>
+                    </div>
+                <a class="btn-mapa" href="https://www.google.com/maps/search/?api=1&query=10.4954,-66.9327" target="_blank" rel="noopener">📍 Ir GPS</a>
+                </div>
+            </div>
+
+            <!-- HITO 2: PLAZA ITALIA -->
+            <div class="hito-card" id="card-hito2">
+                <div class="header-hito">
+                    <h3 class="titulo-hito">Plaza Italia y Santuario Nuestra Señora de Lourdes</h3>
+                    <span class="badge-numero">Hito 2</span>
+                </div>
+                <p class="texto-narrativa" id="text-hito2">
+                    Avanzamos en nuestro trayecto y llegamos a la Plaza Italia, un espacio que nos habla del legado de los inmigrantes en Caracas. La escultura que ven fue donada por la colonia italiana en 1911 como agradecimiento a Venezuela, flanqueada por la imponente arquitectura neogótica del Santuario de Lourdes construido en 1926. Desde este histórico umbral del sector Palo Grande, comenzamos una caminata de 2,3 kilómetros lineales por la memoria urbana del oeste.
+                </p>
+                <div class="paneles-acciones">
+                    <div class="audio-control-panel">
+                        <button class="btn-audio" onclick="toggleAudio('text-hito2', this, 'hito2')">
+                            <span>▶</span> Escuchar Guía
+                        </button>
+                        <span class="status-text">Audio guía disponible</span>
+                    </div>
+                   <a class="btn-mapa" href="https://www.google.com/maps/search/?api=1&query=10.4970,-66.9293" target="_blank" rel="noopener">📍 Ir GPS</a>
+                </div>
+            </div>
+
+            <!-- HITO 3: PLAZA CAPUCHINOS -->
+            <div class="hito-card" id="card-hito3">
+                <div class="header-hito">
+                    <h3 class="titulo-hito">Plaza Capuchinos</h3>
+                    <span class="badge-numero">Hito 3</span>
+                </div>
+                <p class="texto-narrativa" id="text-hito3">
+                    Llegamos al eje social e histórico de la parroquia por más de dos siglos: la Plaza Capuchinos. Fundada en 1776 como Plaza del León, sirvió en 1827 como punto de parada oficial del Libertador Simón Bolívar en su última visita a Caracas. Pero además, este lugar guarda un dato crucial: durante casi 80 años se llamó oficialmente Plaza Ezequiel Zamora. Toda esta manzana quedó grabada bajo esa influencia en la memoria popular y comunitaria de los sanjuaneros, vinculándose directamente con el hito que veremos a continuación.
+                </p>
+                <div class="paneles-acciones">
+                    <div class="audio-control-panel">
+                        <button class="btn-audio" onclick="toggleAudio('text-hito3', this, 'hito3')">
+                            <span>▶</span> Escuchar Guía
+                        </button>
+                        <span class="status-text">Audio guía disponible</span>
+                    </div>
+                   <a class="btn-mapa" href="https://www.google.com/maps/search/?api=1&query=10.4996,-66.9239" target="_blank" rel="noopener">📍 Ir GPS</a>
+                </div>
+            </div>
+
+            <!-- HITO 4: IGLESIA SAN JUAN BAUTISTA -->
+            <div class="hito-card" id="card-hito4">
+                <div class="header-hito">
+                    <h3 class="titulo-hito">Iglesia Parroquial San Juan Bautista</h3>
+                    <span class="badge-numero">Hito 4</span>
+                </div>
+                <p class="texto-narrativa" id="text-hito4">
+                    Justo al frente de la plaza se levanta el templo de los Capuchinos. Los frailes llegaron a estos terrenos en 1788. La iglesia neoclásica que vemos hoy fue construida en 1843 para sustituir la capilla colonial destruida por el devastador terremoto de 1812. Fue declarada Monumento Histórico Nacional en 1960. ¿Sabían que aquí recibieron con honores el corazón del prócer Atanasio Girardot en 1813? Este templo custodia la fe católica y las raíces independentistas de la zona.
+                </p>
+                <div class="paneles-acciones">
+                    <div class="audio-control-panel">
+                        <button class="btn-audio" onclick="toggleAudio('text-hito4', this, 'hito4')">
+                            <span>▶</span> Escuchar Guía
+                        </button>
+                        <span class="status-text">Audio guía disponible</span>
+                    </div>
+                    <a class="btn-mapa" href="https://www.google.com/maps/search/?api=1&query=10.4991,-66.9240" target="_blank" rel="noopener">📍 Ir GPS</a>
+                </div>
+            </div>
+
+            <!-- HITO 5: CASA PATRIMONIAL AQUILES NAZOA -->
+            <div class="hito-card" id="card-hito5">
+                <div class="header-hito">
+                    <h3 class="titulo-hito">Casa Patrimonial Aquiles Nazoa</h3>
+                    <span class="badge-numero">Hito 5</span>
+                </div>
+                <p class="texto-narrativa" id="text-hito5">
+                    Al borde de la plaza nos encontramos ante esta emblemática casona del siglo XIX: la Casa Patrimonial Aquiles Nazoa. Es importante destacar que este inmueble fue declarado Monumento Histórico Nacional según Gaceta Oficial N° 37.741 del 29 de julio de 2003. Su ubicación frente a la antigua Plaza Zamora explica por qué en muchas crónicas populares de los vecinos se le asocia directamente a la memoria de Ezequiel Zamora. En la actualidad, este hermoso espacio, también conocido como Casa de Nuestra América, resguarda salas artísticas como la Waraira Repano y la Alí Primera. Aquí la comunidad cobra vida haciendo teatro, danza, talleres y asambleas vecinales, rindiendo homenaje al insigne escritor que caminó y amó estas calles de San Juan.
+                </p>
+                <div class="paneles-acciones">
+                    <div class="audio-control-panel">
+                        <button class="btn-audio" onclick="toggleAudio('text-hito5', this, 'hito5')">
+                            <span>▶</span> Escuchar Guía
+                        </button>
+                        <span class="status-text">Audio guía disponible</span>
+                    </div>
+                 <a class="btn-mapa" href="https://www.google.com/maps/search/?api=1&query=10.49961, -66.92323" target="_blank" rel="noopener">📍 Ir GPS</a>
+                </div>
+            </div>
+
+            <!-- HITO 6: PLAZA O'LEARY -->
+            <div class="hito-card" id="card-hito6">
+                <div class="header-hito">
+                    <h3 class="titulo-hito">Plaza O'Leary</h3>
+                    <span class="badge-numero">Hito 6</span>
+                </div>
+                <p class="texto-narrativa" id="text-hito6">
+                    Cerramos nuestro recorrido en la Plaza O'Leary, diseñada por el maestro Carlos Raúl Villanueva en 1945 como parte de la Reurbanización de El Silencio. Esta plaza monumental sirvió como el gran distribuidor urbano y umbral de entrada al centro de la capital, albergando las famosas fuentes de 'Las Toninas' esculpidas por Francisco Narváez. Hoy es el punto de llegada de nuestra ruta, un símbolo de la transición hacia la Caracas moderna. Muchas gracias por recorrer con nosotros la historia de la Avenida San Martín.
+                </p>
+                <div class="paneles-acciones">
+                    <div class="audio-control-panel">
+                        <button class="btn-audio" onclick="toggleAudio('text-hito6', this, 'hito6')">
+                            <span>▶</span> Escuchar Guía
+                        </button>
+                        <span class="status-text">Audio guía disponible</span>
+                    </div>
+                    <a class="btn-mapa" href="https://www.google.com/maps/search/?api=1&query=10.5036,-66.9195" target="_blank" rel="noopener">📍 Ir GPS</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- LIBRO DE VISITAS -->
+        <section class="seccion-comentarios">
+            <h2>✍️ Libro de Visitas Digital</h2>
+            <p>Déjanos tu firma, opinión o recuerdo sobre la ruta. Tu aporte queda guardado en la base de datos local.</p>
+            <form class="form-comentario" onsubmit="agregarComentario(event)">
+                <input type="text" id="nombre-turista"
+                    placeholder="Tu nombre o firma (ej: María P., Colegio San Juan...)"
+                    maxlength="60" required>
+                <textarea id="texto-comentario"
+                    placeholder="Escribe tu comentario sobre la ruta patrimonial..."
+                    maxlength="300" required></textarea>
+                <button type="submit" class="btn-enviar">Publicar Comentario</button>
+            </form>
+            <div class="contador-comentarios" id="contador">Comentarios publicados: 0</div>
+            <div class="lista-comentarios" id="lista-comentarios">
+                <p class="sin-comentarios" id="sin-comentarios">Aún no hay comentarios. ¡Sé el primero en firmar!</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer-proyecto">
+        <p><strong>Universidad 19 de Abril</strong></p>
+        <p>Propuesta Operativa de Proyecto Factible de Base Comunitaria</p>
+        <p>Autores: Diana Olivares, Milagro Méndez y Ricardo Pérez | Tutor: José León</p>
+        <p>Caracas, Venezuela</p>
+    </footer>
+
+    <!-- SCRIPT UNIFICADO -->
+    <script>
+        /* 1. AUDIO-GUÍA + MARCADOR DE VISITA AUTOMÁTICO */
+        let currentUtterance = null;
+        let currentButton = null;
+        let hitosVisitados = [];
+        try {
+            hitosVisitados = JSON.parse(localStorage.getItem('rutaSanMartin_progreso')) || [];
+        } catch (e) { hitosVisitados = []; }
+
+        function toggleAudio(textId, buttonElement, hitoKey) {
+            if (window.speechSynthesis.speaking && currentButton === buttonElement) {
+                window.speechSynthesis.cancel();
+                resetButtonState(buttonElement);
+                return;
+            }
+            if (window.speechSynthesis.speaking) {
+                window.speechSynthesis.cancel();
+                if (currentButton) resetButtonState(currentButton);
+            }
+
+            const textToSpeak = document.getElementById(textId).innerText;
+
+            currentUtterance = new SpeechSynthesisUtterance(textToSpeak);
+            currentUtterance.lang = 'es-VE';
+            currentUtterance.rate = 0.95;
+
+            currentButton = buttonElement;
+
+            currentUtterance.onstart = function () {
+                buttonElement.classList.add('playing');
+                buttonElement.innerHTML = '<span>■</span> Detener Guía';
+                buttonElement.nextElementSibling.innerText = 'Narrando en vivo...';
+                buttonElement.nextElementSibling.style.color = 'var(--playing)';
+                registrarVisita(hitoKey);
+            };
+
+            currentUtterance.onend = function () {
+                resetButtonState(buttonElement);
+            };
+
+            currentUtterance.onerror = function () {
+                resetButtonState(buttonElement);
+            };
+
+            window.speechSynthesis.speak(currentUtterance);
+        }
+
+        function resetButtonState(btn) {
+            btn.classList.remove('playing');
+            btn.innerHTML = '<span>▶</span> Escuchar Guía';
+            btn.nextElementSibling.innerText = 'Audio guía disponible';
+            btn.nextElementSibling.style.color = '#6c757d';
+            currentUtterance = null;
+            currentButton = null;
+        }
+
+        window.addEventListener('beforeunload', function () {
+            window.speechSynthesis.cancel();
+        });
+
+        /* 2. SISTEMA DE PROGRESO (6 HITOS) */
+        function registrarVisita(hitoKey) {
+            if (!hitosVisitados.includes(hitoKey)) {
+                hitosVisitados.push(hitoKey);
+                try {
+                    localStorage.setItem('rutaSanMartin_progreso', JSON.stringify(hitosVisitados));
+                } catch (e) { console.warn(e); }
+                actualizarInterfazProgreso();
+            }
+        }
+
+        function actualizarInterfazProgreso() {
+            const totalHitos = 6; // Actualizado a 6
+            const cantidad = hitosVisitados.length;
+            const porcentaje = Math.round((cantidad / totalHitos) * 100);
+
+            const barra = document.getElementById('barra-progreso');
+            const texto = document.getElementById('porcentaje-texto');
+            if (barra) barra.style.width = porcentaje + '%';
+            if (texto) texto.innerText = 'Hitos visitados: ' + cantidad + ' / ' + totalHitos + ' (' + porcentaje + '%)';
+
+            hitosVisitados.forEach(function (key) {
+                const tarjeta = document.getElementById('card-' + key);
+                if (tarjeta) tarjeta.classList.add('visitado');
+            });
+        }
+
+        /* 3. BUSCADOR DE HITOS */
+        function filtrarHitos(query) {
+            const q = query.toLowerCase().trim();
+            const cards = document.querySelectorAll('.hito-card');
+            let visibles = 0;
+
+            cards.forEach(function (card) {
+                const titulo = card.querySelector('.titulo-hito').innerText.toLowerCase();
+                const texto = card.querySelector('.texto-narrativa').innerText.toLowerCase();
+                const coincide = titulo.includes(q) || texto.includes(q);
+                if (coincide) {
+                    card.classList.remove('oculto');
+                    visibles++;
+                } else {
+                    card.classList.add('oculto');
+                }
+            });
+
+            const aviso = document.getElementById('sin-resultados');
+            if (aviso) aviso.classList.toggle('visible', visibles === 0);
+        }
+
+        /* 4. LIBRO DE VISITAS */
+        const STORAGE_KEY = 'rutaSanMartin_comentarios';
+
+        function cargarComentarios() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+            } catch (e) { return []; }
+        }
+
+        function guardarComentarios(lista) {
+            try {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(lista));
+            } catch (e) { console.warn(e); }
+        }
+
+        function renderizarComentarios() {
+            const lista = cargarComentarios();
+            const contenedor = document.getElementById('lista-comentarios');
+            const contador = document.getElementById('contador');
+            if (contador) contador.innerText = 'Comentarios publicados: ' + lista.length;
+            if (!contenedor) return;
+
+            contenedor.innerHTML = '';
+
+            if (lista.length === 0) {
+                contenedor.innerHTML = '<p class="sin-comentarios">Aún no hay comentarios. ¡Sé el primero en firmar!</p>';
+                return;
+            }
+
+            lista.slice().reverse().forEach(function (c, idxReverso) {
+                const item = document.createElement('div');
+                item.className = 'comentario-item';
+                const fecha = new Date(c.fecha).toLocaleString('es-VE', {
+                    day: '2-digit', month: 'short', year: 'numeric',
+                    hour: '2-digit', minute: '2-digit'
+                });
+                const indiceReal = lista.length - 1 - idxReverso;
+                item.innerHTML =
+                    '<button class="btn-eliminar" title="Eliminar comentario" onclick="eliminarComentario(' + indiceReal + ')">✕</button>' +
+                    '<div class="comentario-header">' +
+                        '<span class="comentario-nombre">' + escapeHTML(c.nombre) + '</span>' +
+                        '<span class="comentario-fecha">' + fecha + '</span>' +
+                    '</div>' +
+                    '<p class="comentario-texto">' + escapeHTML(c.texto) + '</p>';
+                contenedor.appendChild(item);
+            });
+        }
+
+        function agregarComentario(event) {
+            event.preventDefault();
+            const nombreInput = document.getElementById('nombre-turista');
+            const textoInput = document.getElementById('texto-comentario');
+            const nombre = nombreInput.value.trim();
+            const texto = textoInput.value.trim();
+            if (!nombre || !texto) return;
+
+            const lista = cargarComentarios();
+            lista.push({ nombre: nombre, texto: texto, fecha: new Date().toISOString() });
+            guardarComentarios(lista);
+            nombreInput.value = '';
+            textoInput.value = '';
+            renderizarComentarios();
+        }
+
+        function eliminarComentario(indice) {
+            if (!confirm('¿Eliminar este comentario?')) return;
+            const lista = cargarComentarios();
+            lista.splice(indice, 1);
+            guardarComentarios(lista);
+            renderizarComentarios();
+        }
+
+        function escapeHTML(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        /* 5. INICIALIZACIÓN */
+        document.addEventListener('DOMContentLoaded', function () {
+            renderizarComentarios();
+            actualizarInterfazProgreso();
+        });
+    </script>
+
+</body>
+</html>
