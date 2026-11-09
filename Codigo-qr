@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Imprimir Código QR - Ruta San Martín</title>
+    <style>
+        /* Esto centra la imagen en la hoja al imprimir */
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            background-color: white;
+        }
+        img { 
+            max-width: 80%; /* Ajusta el tamaño para que quepa bien en el papel */
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- AQUÍ ESTÁ LA MAGIA: Solo el enlace directo a la imagen en GitHub -->
+    <img src="https://ricardo50a.github.io/lingobeast-data/qr.jpg" alt="Escanear para ir a la Ruta San Martín">
+
+</body>
+</html>
